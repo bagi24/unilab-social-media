@@ -18,9 +18,10 @@ body {
 .left-side {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   width: 293px;
+  height: 1024px;
   background-color: #ffffff;
 }
 
@@ -157,13 +158,21 @@ body {
 
 .header {
   background-color: #ffffff;
-  width: 100%;
+  width: 923px;
   height: 66px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.post-article__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .header__titile {
@@ -213,7 +222,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
+
   background-color: #ffffff;
   width: 714px;
   border-radius: 10px;
@@ -295,6 +304,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   gap: 4px;
+  cursor: pointer;
 }
 
 .icons-line {
@@ -318,4 +328,200 @@ input::placeholder {
   font-weight: 400;
   line-height: 16.42px;
   letter-spacing: 0em;
+  cursor: pointer;
+}
+
+.article__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 24px;
+  background-color: #ffffff;
+  width: 185px;
+  height: 929px;
+  border-radius: 10px;
+}
+
+.last__article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 21px 22px 16px 22px;
+}
+
+.last__article h1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.08px;
+  letter-spacing: 0em;
+  color: #303030;
+}
+
+.last__article img {
+  width: 141px;
+  height: 93px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.last__article span {
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 9.38px;
+  letter-spacing: 0em;
+  color: #1f50ff;
+  margin-top: 49px;
+}
+
+.article-line {
+  width: 141px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.birthdays {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 9px 12px 16px 22px;
+}
+
+.birthday-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+.birthday-icon h1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.08px;
+  letter-spacing: 0em;
+  color: #303030;
+}
+
+.birthday-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.birthdays span {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.73px;
+  letter-spacing: 0em;
+  width: 100%;
+  color: #555555;
+}
+
+.post__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.post {
+  padding: 31px 25px 0 29px;
+  width: 714px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 10px;
+  height: 706px;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 19px;
+}
+
+.post-info img {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+}
+
+.post-person {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 9px;
+}
+
+.post-person span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  letter-spacing: 0em;
+  color: #303030;
+}
+
+.post-person p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11.73px;
+  letter-spacing: 0em;
+  color: #4b71f9;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 11px;
+}
+
+.post-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.post-description p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  letter-spacing: 0em;
+  color: #555555;
+  width: 100%;
+}
+
+.post-description img {
+  width: 660px;
+  height: 321px;
+  border-radius: 10px;
+}
+
+.post-reaction {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16.5px;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+}
+
+.see-more {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.08px;
+  letter-spacing: 0em;
+  color: #1f50ff;
+  text-decoration: underline;
 }
