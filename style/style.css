@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans";
+}
+
+.socMedia__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 293px;
+}
+
+.social__title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-left: 23px;
+  padding-bottom: 23px;
+
+  font-family: "Futura Std";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.25px;
+  letter-spacing: 0em;
+  color: #1f50ff;
+}
+
+.line {
+  width: 254px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  gap: 19px;
+  width: 100%;
+  padding: 20.5px 36px 15px 17px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 18px;
+}
+.user-avatar {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  border: 7px solid #f2f2f2;
+}
+.user__name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.77px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+
+.user__bio {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.08px;
+  letter-spacing: 0em;
+  color: #1f50ff;
+}
+
+.user__community {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 33px 52px 28px 43px;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.num {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.77px;
+  letter-spacing: 0em;
+  color: #303030;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.08px;
+  letter-spacing: 0em;
+  color: #303030;
+}
+
+.user__active {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 135px 55px 33px;
+  gap: 21px;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.fa {
+  width: 24px;
+  height: 24px;
+}
+
+.active-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  letter-spacing: 0em;
+}
