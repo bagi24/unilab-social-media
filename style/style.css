@@ -546,272 +546,431 @@ input::placeholder {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1400px) {
   .header {
-    width: 298px;
-    height: 33px;
+    width: 769px;
+    height: 44px;
 
     border-bottom-right-radius: 0px;
   }
 
-  .user__bio {
-    display: none;
-  }
-
-  .icons .fa-brands {
-    display: none;
-  }
-
-  .icons .fa-grip {
-    display: none;
-  }
-
-  .icons .fa-gear {
-    display: none;
-  }
-
-  .fa-circle-plus {
-    width: 16px;
-    height: 16px;
-    visibility: visible;
-  }
-
-  .header__img {
-    width: 24px;
-    height: 24px;
-  }
-
-  .header__icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .header-name {
-    display: none;
-  }
-
   .createPost__container {
-    width: 226px;
-  }
-
-  .input-img {
-    width: 26px;
-    height: 26px;
-  }
-  .inpit-bellow {
-    gap: 7px;
-    padding: 10px 9px 9px 9px;
-  }
-
-  .inpit-bellow input {
-    width: 174px;
-    height: 23px;
-  }
-
-  .inpit-bellow input::placeholder {
-    font-size: 7px;
-    font-weight: 400;
-    line-height: 8px;
-    letter-spacing: 0em;
+    width: 600px;
   }
 
   .postLine {
-    width: 207px;
-  }
-
-  .it {
-    display: none;
-  }
-  .button {
-    width: 51px;
-    height: 16.56px;
-
-    gap: 1px;
-    border-radius: 8.29px;
-    font-size: 6px;
-    font-weight: 400;
-    line-height: 7px;
-    letter-spacing: 0em;
-  }
-  .createPost-icons {
-    padding: 10px 9px 14px 13px;
+    width: 580px;
   }
 
   .post {
-    width: 226px;
-    padding: 17px 14px 0 15px;
-    margin-top: 11px;
-    height: 784px;
-  }
-
-  .post-info {
-    gap: 11px;
-  }
-  .post-info img {
-    width: 36px;
-    height: 36px;
-  }
-
-  .post-person {
-    gap: 2px;
-  }
-  .post-person span {
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0em;
-  }
-
-  .post-person p {
-    font-size: 6px;
-    line-height: 7px;
-    letter-spacing: 0em;
-  }
-
-  .desc-p {
-    display: none;
-  }
-  .visibleP {
-    visibility: visible;
-    font-size: 8px;
-    line-height: 9px;
-    width: 100%;
+    width: 600px;
   }
 
   .post-description img {
-    width: 199px;
-    height: 99px;
-  }
-
-  .heart {
-    width: 10px;
-    height: 10px;
-  }
-
-  .see-more {
-    font-size: 6px;
-    line-height: 7px;
-    letter-spacing: 0em;
+    width: 546px;
+    height: 300px;
   }
 
   .article__container {
-    width: 61px;
+    width: 145px;
   }
 
-  .last__article h1 {
-    display: none;
-  }
-  .last__article img {
-    display: none;
-  }
-  .last__article span {
-    display: none;
-  }
+  @media only screen and (max-width: 1270px) {
+    .left-side {
+      width: 150px;
+    }
 
-  .article-line {
-    width: 48px;
-  }
-  .birthdays {
-    padding: 20px 19px 21px 19px;
-  }
+    .active {
+      visibility: hidden;
+    }
 
-  .birthday-icon h1 {
-    display: none;
-  }
+    .active-icon {
+      visibility: visible;
+    }
 
-  .birthdays span {
-    display: none;
-  }
+    .user__active {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-left: 70px;
+      align-items: flex-start;
+      justify-content: center;
+    }
 
-  .fa-book-open {
-    visibility: visible;
-    width: 16px;
-    height: 16px;
-  }
+    .user__community {
+      flex-direction: column;
+      gap: 29px;
+    }
 
-  .fa-circle-chevron-down {
-    visibility: visible;
-    width: 24px;
-    height: 24px;
-  }
+    .user__bio {
+      display: none;
+    }
 
-  .last__article {
-    gap: 13px;
-    margin: 0 auto;
-  }
+    .social__title {
+      font-size: 12px;
+      line-height: 16px;
+    }
 
-  .birthday-icon img {
-    width: 22px;
-    height: 22px;
-    margin: 0 auto;
-  }
+    .line {
+      width: 100px;
+    }
 
-  .left-side {
-    width: 87px;
-    height: 926px;
-  }
+    .user-avatar {
+      width: 60px;
+      height: 60px;
+    }
 
-  .social__title {
-    font-size: 12px;
-    line-height: 16px;
-  }
+    .user__name {
+      font-size: 10px;
+      line-height: 12px;
+    }
 
-  .line {
-    width: 69px;
-  }
+    .user {
+      display: flex;
+      flex-direction: column;
+      margin-left: 8px;
+      margin-right: 7px;
+    }
 
-  .user-avatar {
-    width: 60px;
-    height: 60px;
-  }
+    .user__info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 18px 7px 17px 8px;
+    }
 
-  .user__name {
-    font-size: 10px;
-    line-height: 12px;
-  }
+    .postLine {
+      width: 580px;
+    }
 
-  .user {
-    display: flex;
-    flex-direction: column;
-    margin-left: 8px;
-    margin-right: 7px;
-  }
+    @media only screen and (max-width: 900px) {
+      .header {
+        width: 450px;
+        height: 33px;
 
-  .user__info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 18px 7px 17px 8px;
-  }
+        border-bottom-right-radius: 0px;
+      }
 
-  .user__community {
-    flex-direction: column;
-    gap: 29px;
-  }
+      .createPost__container {
+        width: 451px;
+      }
 
-  .user__active {
-    margin: 0 auto;
-  }
+      .postLine {
+        width: 420px;
+      }
 
-  .active {
-    visibility: hidden;
-  }
+      .it {
+        display: none;
+      }
+      .button {
+        width: 61px;
+        height: 25.56px;
 
-  .active-icon {
-    visibility: visible;
-  }
+        gap: 1px;
+        border-radius: 12px;
+        font-size: 10px;
+        font-weight: 400;
+      }
+      .createPost-icons {
+        padding: 10px 9px 14px 13px;
+      }
 
-  .right-side {
-    margin-left: 11px;
-  }
+      .post {
+        width: 450px;
+        padding: 17px 14px 0 15px;
+        margin-top: 11px;
+        height: 784px;
+      }
 
-  .post-article__container {
-    margin-top: 19px;
-  }
+      .post-info img {
+        width: 46px;
+        height: 46px;
+      }
+      .post-description {
+        gap: 0px;
+      }
+      .post-description img {
+        width: 420px;
+      }
 
-  .article__container {
-    margin-left: 11px;
-    height: 874px;
+      @media only screen and (max-width: 750px) {
+        .article__container {
+          display: none;
+        }
+
+        @media only screen and (max-width: 580px) {
+          .header {
+            width: 298px;
+            height: 33px;
+
+            border-bottom-right-radius: 0px;
+          }
+          .article__container {
+            display: block;
+          }
+
+          .user__bio {
+            display: none;
+          }
+
+          .icons .fa-brands {
+            display: none;
+          }
+
+          .icons .fa-grip {
+            display: none;
+          }
+
+          .icons .fa-gear {
+            display: none;
+          }
+
+          .fa-circle-plus {
+            width: 16px;
+            height: 16px;
+            visibility: visible;
+          }
+
+          .header__img {
+            width: 24px;
+            height: 24px;
+          }
+
+          .header__icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+          }
+
+          .header-name {
+            display: none;
+          }
+
+          .createPost__container {
+            width: 226px;
+          }
+
+          .input-img {
+            width: 26px;
+            height: 26px;
+          }
+          .inpit-bellow {
+            gap: 7px;
+            padding: 10px 9px 9px 9px;
+          }
+
+          .inpit-bellow input {
+            width: 174px;
+            height: 23px;
+          }
+
+          .inpit-bellow input::placeholder {
+            font-size: 7px;
+            font-weight: 400;
+            line-height: 8px;
+            letter-spacing: 0em;
+          }
+
+          .postLine {
+            width: 207px;
+          }
+
+          .it {
+            display: none;
+          }
+          .button {
+            width: 51px;
+            height: 16.56px;
+
+            gap: 1px;
+            border-radius: 8.29px;
+            font-size: 6px;
+            font-weight: 400;
+            line-height: 7px;
+            letter-spacing: 0em;
+          }
+          .createPost-icons {
+            padding: 10px 9px 14px 13px;
+          }
+
+          .post {
+            width: 226px;
+            padding: 17px 14px 0 15px;
+            margin-top: 11px;
+            height: 784px;
+          }
+
+          .post-info {
+            gap: 11px;
+          }
+          .post-info img {
+            width: 36px;
+            height: 36px;
+          }
+
+          .post-person {
+            gap: 2px;
+          }
+          .post-person span {
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0em;
+          }
+
+          .post-person p {
+            font-size: 6px;
+            line-height: 7px;
+            letter-spacing: 0em;
+          }
+
+          .desc-p {
+            display: none;
+          }
+          .visibleP {
+            visibility: visible;
+            font-size: 8px;
+            line-height: 9px;
+            width: 100%;
+          }
+
+          .post-description img {
+            width: 199px;
+            height: 99px;
+          }
+
+          .heart {
+            width: 10px;
+            height: 10px;
+          }
+
+          .see-more {
+            font-size: 6px;
+            line-height: 7px;
+            letter-spacing: 0em;
+          }
+
+          .article__container {
+            width: 61px;
+          }
+
+          .last__article h1 {
+            display: none;
+          }
+          .last__article img {
+            display: none;
+          }
+          .last__article span {
+            display: none;
+          }
+
+          .article-line {
+            width: 48px;
+          }
+          .birthdays {
+            padding: 20px 19px 21px 19px;
+          }
+
+          .birthday-icon h1 {
+            display: none;
+          }
+
+          .birthdays span {
+            display: none;
+          }
+
+          .fa-book-open {
+            visibility: visible;
+            width: 16px;
+            height: 16px;
+          }
+
+          .fa-circle-chevron-down {
+            visibility: visible;
+            width: 24px;
+            height: 24px;
+          }
+
+          .last__article {
+            gap: 13px;
+            margin: 0 auto;
+          }
+
+          .birthday-icon img {
+            width: 22px;
+            height: 22px;
+            margin: 0 auto;
+          }
+
+          .left-side {
+            width: 87px;
+            height: 926px;
+          }
+
+          .social__title {
+            font-size: 12px;
+            line-height: 16px;
+          }
+
+          .line {
+            width: 69px;
+          }
+
+          .user-avatar {
+            width: 60px;
+            height: 60px;
+          }
+
+          .user__name {
+            font-size: 10px;
+            line-height: 12px;
+          }
+
+          .user {
+            display: flex;
+            flex-direction: column;
+            margin-left: 8px;
+            margin-right: 7px;
+          }
+
+          .user__info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 7px 17px 8px;
+          }
+
+          .user__community {
+            flex-direction: column;
+            gap: 29px;
+          }
+
+          .user__active {
+            margin: 0 auto;
+          }
+
+          .active {
+            visibility: hidden;
+          }
+
+          .active-icon {
+            visibility: visible;
+          }
+
+          .right-side {
+            margin-left: 11px;
+          }
+
+          .post-article__container {
+            margin-top: 19px;
+          }
+
+          .article__container {
+            margin-left: 11px;
+            height: 874px;
+          }
+        }
+      }
+    }
   }
 }
